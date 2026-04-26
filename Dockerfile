@@ -1,9 +1,13 @@
-FROM php:8.2-cli
+FROM php:8.2-apache
 
-WORKDIR /app
+# Install PostgreSQL dependencies
+RUN apt-get update && apt-get install -y \
+    libpq-dev \
+    && docker-php-ext-install pdo pdo_pgsql pgsql
 
-COPY . /app
+# Enable Apache rewrite (optional but good)
+RUN a2enmod rewrite
 
-EXPOSE 10000
+COPY . /var/www/html/
 
-CMD ["php", "-S", "0.0.0.0:10000"]
+EXPOSE 80

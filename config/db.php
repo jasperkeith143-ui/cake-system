@@ -1,13 +1,18 @@
 <?php
-$host = "localhost";
-$port = "5432";
-$db   = "cake_system";
-$user = "postgres";
-$pass = "1234"; // your PostgreSQL password
+
+$host = getenv("DB_HOST");
+$port = getenv("DB_PORT");
+$db   = getenv("DB_NAME");
+$user = getenv("DB_USER");
+$pass = getenv("DB_PASSWORD");
+
+if (!$host || !$port || !$db || !$user || !$pass) {
+    die("⚠️ Missing database environment variables.");
+}
 
 try {
     $conn = new PDO(
-        "pgsql:host=$host;port=$port;dbname=$db",
+        "pgsql:host=$host;port=$port;dbname=$db;sslmode=require",
         $user,
         $pass,
         [
@@ -17,8 +22,7 @@ try {
     );
 
 } catch (PDOException $e) {
-    error_log("DB ERROR: " . $e->getMessage());
-    echo "<div class='error-box'>⚠️ Database connection failed.</div>";
-    exit();
+    die("⚠️ Database connection failed: " . $e->getMessage());
 }
+
 ?>
