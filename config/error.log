@@ -1,0 +1,13 @@
+[22-Apr-2026 07:50:34 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'cake_system'
+[22-Apr-2026 07:50:39 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'cake_system'
+[22-Apr-2026 07:51:50 Europe/Berlin] SQLSTATE[HY000] [1049] Unknown database 'cake_system'
+[22-Apr-2026 07:57:04 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 07:57:07 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 07:57:09 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 07:57:10 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 07:57:24 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 07:57:33 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 07:57:33 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 08:01:18 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 08:01:21 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
+[22-Apr-2026 08:01:22 Europe/Berlin] PHP Fatal error:  Cannot redeclare customError() (previously declared in C:\xampp\htdocs\cake-system\config\error_handler.php:11) in C:\xampp\htdocs\cake-system\config\error_handler.php on line 20
